@@ -1,0 +1,19 @@
+# Python / environments
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large data (re-created by scripts/run_pipeline.py)
+data/raw/
+data/interim/
+data/processed/
+models/*.pt
+outputs/rasters/
+outputs/*.log
+
+# Credentials and private config - never commit
+.env
+*.json.key
+credentials
+config/*.local.yaml

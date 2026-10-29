@@ -1,0 +1,22 @@
+# Install PyTorch FIRST from the CUDA index (see README):
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cu126
+# Versions below are the ones installed and tested in this project's .venv (Python 3.13, Windows).
+earthengine-api==1.7.50
+geopandas==1.2.0
+matplotlib==3.11.2
+numpy==2.5.4
+opencv-python-headless==5.0.0.93
+pandas==3.1.0
+planetary-computer==1.0.0
+pyogrio==0.13.0
+pyproj==3.8.0
+pystac-client==0.9.1
+pytest==9.2.0
+PyYAML==6.0.3
+rasterio==1.5.2
+requests==2.34.2
+s2sphere==0.2.5
+scikit-learn==1.9.1
+scipy==1.18.1
+shapely==2.2.0
+tqdm==4.70.1

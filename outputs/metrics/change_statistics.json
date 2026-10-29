@@ -1,0 +1,134 @@
+{
+  "periods": [
+    "2020",
+    "2025"
+  ],
+  "threshold": 0.6,
+  "method": "post-classification comparison of U-Net maps",
+  "status": "MEASURED from model predictions (not validated against independent change reference)",
+  "core": {
+    "all_changes": {
+      "valid_analysed_area_km2": 25.0,
+      "not_analysed_area_km2": 0.0,
+      "earlier_built_up_km2": 11.071,
+      "later_built_up_km2": 12.1319,
+      "gross_gain_km2": 2.6904,
+      "gross_loss_km2": 1.6295,
+      "net_change_km2": 1.0609,
+      "persistent_km2": 9.4415,
+      "pixel_counts": {
+        "stable_non_building": 112386,
+        "potential_gain": 26904,
+        "potential_loss": 16295,
+        "persistent_building": 94415
+      },
+      "earlier_built_up_pct_of_valid": 44.284,
+      "earlier_built_up_km2_geodesic": 11.069051504,
+      "later_built_up_pct_of_valid": 48.5276,
+      "later_built_up_km2_geodesic": 12.1297647856,
+      "gross_gain_pct_of_valid": 10.761599999999998,
+      "gross_gain_km2_geodesic": 2.6899264896,
+      "gross_loss_pct_of_valid": 6.518,
+      "gross_loss_km2_geodesic": 1.629213208,
+      "net_change_pct_of_valid": 4.2436,
+      "net_change_km2_geodesic": 1.0607132816,
+      "persistent_pct_of_valid": 37.766,
+      "persistent_km2_geodesic": 9.439838296,
+      "study_area_km2": 25.0
+    },
+    "high_confidence_margin_0.2": {
+      "valid_analysed_area_km2": 25.0,
+      "not_analysed_area_km2": 0.0,
+      "earlier_built_up_km2": 11.071,
+      "later_built_up_km2": 11.925,
+      "gross_gain_km2": 1.1701,
+      "gross_loss_km2": 0.3161,
+      "net_change_km2": 0.8539999999999999,
+      "persistent_km2": 10.7549,
+      "pixel_counts": {
+        "stable_non_building": 127589,
+        "potential_gain": 11701,
+        "potential_loss": 3161,
+        "persistent_building": 107549
+      },
+      "earlier_built_up_pct_of_valid": 44.284,
+      "earlier_built_up_km2_geodesic": 11.069051504,
+      "later_built_up_pct_of_valid": 47.7,
+      "later_built_up_km2_geodesic": 11.922901200000002,
+      "gross_gain_pct_of_valid": 4.6804,
+      "gross_gain_km2_geodesic": 1.1698940624,
+      "gross_loss_pct_of_valid": 1.2644,
+      "gross_loss_km2_geodesic": 0.3160443664,
+      "net_change_pct_of_valid": 3.4159999999999995,
+      "net_change_km2_geodesic": 0.8538496959999999,
+      "persistent_pct_of_valid": 43.0196,
+      "persistent_km2_geodesic": 10.7530071376,
+      "study_area_km2": 25.0
+    }
+  },
+  "core_reference": {
+    "open_buildings_mask_area_km2": 9.7725,
+    "open_buildings_roof_area_km2": 6.657495498657227,
+    "unet_2023_built_up_km2": 11.7577
+  },
+  "wide": {
+    "all_changes": {
+      "valid_analysed_area_km2": 235.9172,
+      "not_analysed_area_km2": 0.0124,
+      "earlier_built_up_km2": 60.6514,
+      "later_built_up_km2": 72.446,
+      "gross_gain_km2": 21.596,
+      "gross_loss_km2": 9.8014,
+      "net_change_km2": 11.7946,
+      "persistent_km2": 50.85,
+      "pixel_counts": {
+        "stable_non_building": 1536698,
+        "potential_gain": 215960,
+        "potential_loss": 98014,
+        "persistent_building": 508500
+      },
+      "earlier_built_up_pct_of_valid": 25.70876561776759,
+      "earlier_built_up_km2_geodesic": 60.640664702200006,
+      "later_built_up_pct_of_valid": 30.708231532079896,
+      "later_built_up_km2_geodesic": 72.433177058,
+      "gross_gain_pct_of_valid": 9.154059136001953,
+      "gross_gain_km2_geodesic": 21.592177508,
+      "gross_loss_pct_of_valid": 4.154593221689643,
+      "gross_loss_km2_geodesic": 9.7996651522,
+      "net_change_pct_of_valid": 4.999465914312309,
+      "net_change_km2_geodesic": 11.792512355800001,
+      "persistent_pct_of_valid": 21.554172396077945,
+      "persistent_km2_geodesic": 50.84099955,
+      "study_area_km2": 235.9296
+    },
+    "high_confidence_margin_0.2": {
+      "valid_analysed_area_km2": 235.9172,
+      "not_analysed_area_km2": 0.0124,
+      "earlier_built_up_km2": 60.6514,
+      "later_built_up_km2": 68.1422,
+      "gross_gain_km2": 9.135,
+      "gross_loss_km2": 1.6442,
+      "net_change_km2": 7.4908,
+      "persistent_km2": 59.0072,
+      "pixel_counts": {
+        "stable_non_building": 1661308,
+        "potential_gain": 91350,
+        "potential_loss": 16442,
+        "persistent_building": 590072
+      },
+      "earlier_built_up_pct_of_valid": 25.70876561776759,
+      "earlier_built_up_km2_geodesic": 60.640664702200006,
+      "later_built_up_pct_of_valid": 28.88394741884017,
+      "later_built_up_km2_geodesic": 68.1301388306,
+      "gross_gain_pct_of_valid": 3.8721212357555954,
+      "gross_gain_km2_geodesic": 9.133383105,
+      "gross_loss_pct_of_valid": 0.696939434683016,
+      "gross_loss_km2_geodesic": 1.6439089766000001,
+      "net_change_pct_of_valid": 3.1751818010725796,
+      "net_change_km2_geodesic": 7.4894741284,
+      "persistent_pct_of_valid": 25.01182618308457,
+      "persistent_km2_geodesic": 58.996755725599996,
+      "study_area_km2": 235.9296
+    }
+  }
+}

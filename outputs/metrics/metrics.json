@@ -1,0 +1,80 @@
+{
+  "status": "MEASURED on held-out spatial test blocks",
+  "n_test_tiles": 80,
+  "n_test_blocks": 5,
+  "test_reference_building_pixel_share": 0.215826416015625,
+  "threshold": {
+    "value": 0.6,
+    "selected_on": "validation split (max global IoU)"
+  },
+  "unet_global": {
+    "tp": 59902,
+    "fp": 26681,
+    "fn": 10820,
+    "tn": 230277,
+    "precision": 0.6918448194218264,
+    "recall": 0.8470065891801702,
+    "f1": 0.7616032548234322,
+    "iou": 0.6149913247025246,
+    "accuracy": 0.8855560302734375,
+    "iou_background": 0.8599548880042424,
+    "mean_iou_2class": 0.7374731063533835
+  },
+  "unet_per_tile_mean": {
+    "precision": 0.6319322210874904,
+    "precision_n_tiles_defined": 78,
+    "recall": 0.727441890088947,
+    "recall_n_tiles_defined": 79,
+    "f1": 0.668223463160754,
+    "f1_n_tiles_defined": 79,
+    "iou": 0.5178024718880581,
+    "iou_n_tiles_defined": 79,
+    "n_tiles": 80
+  },
+  "unet_global_at_threshold_0.5": {
+    "tp": 62430,
+    "fp": 32004,
+    "fn": 8292,
+    "tn": 224954,
+    "precision": 0.661096638922422,
+    "recall": 0.8827521846101637,
+    "f1": 0.7560124972753034,
+    "iou": 0.6077331931546055,
+    "accuracy": 0.8770263671875,
+    "iou_background": 0.8480829406220547,
+    "mean_iou_2class": 0.7279080668883301
+  },
+  "baseline_all_background": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 70722,
+    "tn": 256958,
+    "precision": NaN,
+    "recall": 0.0,
+    "f1": 0.0,
+    "iou": 0.0,
+    "accuracy": 0.784173583984375,
+    "iou_background": 0.784173583984375,
+    "mean_iou_2class": 0.3920867919921875
+  },
+  "baseline_random_forest_pixelwise": {
+    "tp": 59618,
+    "fp": 38635,
+    "fn": 11104,
+    "tn": 218323,
+    "precision": 0.6067804545408283,
+    "recall": 0.84299086564294,
+    "f1": 0.7056428465749371,
+    "iou": 0.5451685763142734,
+    "accuracy": 0.8482086181640625,
+    "iou_background": 0.8144496422469428,
+    "mean_iou_2class": 0.6798091092806081
+  },
+  "checkpoint_epoch": 31,
+  "notes": [
+    "Global = TP/FP/FN/TN summed over all valid test pixels, then ratios.",
+    "Per-tile mean = average of per-tile scores; undefined tiles (0/0) excluded.",
+    "Foreground metrics: precision/recall/f1/iou. Background-inclusive: accuracy, iou_background, mean_iou_2class.",
+    "Reference = rasterized Open Buildings V3 (an imperfect, differently-dated label)."
+  ]
+}

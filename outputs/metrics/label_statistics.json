@@ -1,0 +1,12 @@
+{
+  "input": 462166,
+  "repaired": 0,
+  "kept": 462166,
+  "footprint_area_km2": 39.62704182992427,
+  "footprint_area_median_m2": 57.27252989441234,
+  "footprints_smaller_than_one_pixel_pct": 71.36613251515689,
+  "coverage_sum_km2": 37.984317779541016,
+  "mask_building_pixels": 568499,
+  "mask_building_area_km2": 56.8499,
+  "mask_building_share": 0.24096128675672743
+}

@@ -1,0 +1,43 @@
+{
+  "status": "MEASURED on held-out test tiles",
+  "object_definition": "connected regions of building pixels (8-connected, 10 m) - NOT individual buildings",
+  "region_level_one_to_one": {
+    "matching": "greedy one-to-one, polygon IoU >= 0.5",
+    "n_pred": 2269,
+    "n_ref": 3020,
+    "tp": 875,
+    "fp": 1394,
+    "fn": 2145,
+    "precision": 0.3856324371970031,
+    "recall": 0.2897350993377483,
+    "mean_iou_of_matches": 0.6691705675581083,
+    "pred_merging_multiple_refs": 446,
+    "refs_split_across_multiple_preds": 371
+  },
+  "region_level_one_to_one_iou_0.25": {
+    "matching": "greedy one-to-one, polygon IoU >= 0.25",
+    "n_pred": 2269,
+    "n_ref": 3020,
+    "tp": 1493,
+    "fp": 776,
+    "fn": 1527,
+    "precision": 0.6579991185544293,
+    "recall": 0.4943708609271523,
+    "mean_iou_of_matches": 0.5392190952624857,
+    "pred_merging_multiple_refs": 446,
+    "refs_split_across_multiple_preds": 371
+  },
+  "footprint_level_detection_rates": {
+    "rule": "footprint detected if >= 50% of it lies in predicted regions; region supported if footprints cover >= 25% of it (many-to-one allowed)",
+    "n_footprints": 53287,
+    "building_detection_rate": 0.8149830164955806,
+    "n_regions": 2269,
+    "region_support_rate": 0.8157778757161745
+  },
+  "settings": {
+    "connectivity": 8,
+    "min_pixels": 2,
+    "opening_kernel": 0,
+    "iou_threshold": 0.5
+  }
+}

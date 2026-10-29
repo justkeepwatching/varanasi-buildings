@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "n_parameters": 7763905,
+  "train_tiles": 416,
+  "val_tiles": 80,
+  "pos_weight": 2.990155373681314,
+  "train_building_pixel_share": 0.25061680720402646,
+  "epochs_run": 46,
+  "best_epoch": 31,
+  "best_val_iou_at_0.5": 0.602006885795839,
+  "training_seconds": 62.6,
+  "selection_rule": "highest validation IoU (global, threshold 0.5)"
+}

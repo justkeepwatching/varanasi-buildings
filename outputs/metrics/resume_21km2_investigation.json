@@ -1,0 +1,63 @@
+{
+  "claim_km2": 21.0,
+  "closest_quantity": "wide gross gain",
+  "closest_km2": 21.596,
+  "max_possible_gain_in_core_km2": 13.929,
+  "candidates": [
+    {
+      "quantity": "core study area (total)",
+      "km2": 25.0,
+      "difference_from_21_km2": 4.0
+    },
+    {
+      "quantity": "core built-up 2020",
+      "km2": 11.071,
+      "difference_from_21_km2": -9.929
+    },
+    {
+      "quantity": "core built-up 2025",
+      "km2": 12.132,
+      "difference_from_21_km2": -8.868
+    },
+    {
+      "quantity": "core gross gain",
+      "km2": 2.69,
+      "difference_from_21_km2": -18.31
+    },
+    {
+      "quantity": "core net change",
+      "km2": 1.061,
+      "difference_from_21_km2": -19.939
+    },
+    {
+      "quantity": "core Open Buildings mask area",
+      "km2": 9.773,
+      "difference_from_21_km2": -11.227
+    },
+    {
+      "quantity": "wide study area (total)",
+      "km2": 235.93,
+      "difference_from_21_km2": 214.93
+    },
+    {
+      "quantity": "wide built-up 2020",
+      "km2": 60.651,
+      "difference_from_21_km2": 39.651
+    },
+    {
+      "quantity": "wide built-up 2025",
+      "km2": 72.446,
+      "difference_from_21_km2": 51.446
+    },
+    {
+      "quantity": "wide gross gain",
+      "km2": 21.596,
+      "difference_from_21_km2": 0.596
+    },
+    {
+      "quantity": "wide net change",
+      "km2": 11.795,
+      "difference_from_21_km2": -9.205
+    }
+  ]
+}

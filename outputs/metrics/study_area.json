@@ -1,0 +1,45 @@
+{
+  "wide": {
+    "width_px": 1536,
+    "height_px": 1536,
+    "pixel_size_m": 10.0,
+    "planar_area_km2": 235.9296,
+    "geodesic_area_km2": 235.8879,
+    "geodesic_to_planar_ratio": 0.999823,
+    "bounds_utm": [
+      691130.0,
+      2793610.0,
+      706490.0,
+      2808970.0
+    ],
+    "bounds_lonlat": [
+      82.897654,
+      25.244615,
+      83.052418,
+      25.385288
+    ]
+  },
+  "core": {
+    "width_px": 500,
+    "height_px": 500,
+    "pixel_size_m": 10.0,
+    "planar_area_km2": 25.0,
+    "geodesic_area_km2": 24.9956,
+    "geodesic_to_planar_ratio": 0.999824,
+    "bounds_utm": [
+      696310.0,
+      2798790.0,
+      701310.0,
+      2803790.0
+    ],
+    "bounds_lonlat": [
+      82.949808,
+      25.29207,
+      83.000187,
+      25.337862
+    ]
+  },
+  "core_full_tiles_64px": 49,
+  "wide_full_tiles_64px": 576,
+  "tile_ground_size_m": 640
+}
